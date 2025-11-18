@@ -1,12 +1,12 @@
 
 ```markdown
-# School Library Management System (Rust + PostgreSQL)
+# **School Library Management System (Rust + PostgreSQL)**
 
 This project is a **console-based school library management system** implemented in **Rust** using **SQLx** for PostgreSQL database operations. The system allows adding students, teachers, books, borrowing and returning books, and listing available and borrowed books. All data is persisted in a PostgreSQL database.
 
 ---
 
-## 📝 Project Purpose
+## **📝 Project Purpose**
 
 The purpose of this project is to demonstrate:
 
@@ -18,7 +18,7 @@ The purpose of this project is to demonstrate:
 
 ---
 
-## 📂 Folder Structure
+## **📂 Folder Structure**
 
 school_library/
 ├── Cargo.toml # Rust project manifest
