@@ -20,25 +20,21 @@ The purpose of this project is to demonstrate:
 
 ## 📂 Folder Structure
 
-```
-
 school_library/
-├── Cargo.toml                 # Rust project manifest
+├── Cargo.toml # Rust project manifest
 ├── Cargo.lock
 ├── README.md
 ├── src/
-│   ├── main.rs                # Entry point of the application (menu + CLI)
-│   ├── library.rs             # Library struct with all database operations
-│   └── models/
-│       ├── mod.rs             # Models module
-│       ├── book.rs            # Book struct
-│       ├── student.rs         # Student struct
-│       ├── teacher.rs         # Teacher struct
-│       └── borrow_record.rs   # BorrowRecord struct
-└── example
-    |── example.rs # small example how to connect to a sql database using rust
-````
-
+│ ├── main.rs # Entry point of the application (menu + CLI)
+│ ├── library.rs # Library struct with all database operations
+│ └── models/
+│ ├── mod.rs # Models module
+│ ├── book.rs # Book struct
+│ ├── student.rs # Student struct
+│ ├── teacher.rs # Teacher struct
+│ └── borrow_record.rs # BorrowRecord struct
+└── example/
+└── example.rs # Small example showing how to connect to a SQL database using Rust
 ---
 
 ## ⚙️ Prerequisites
