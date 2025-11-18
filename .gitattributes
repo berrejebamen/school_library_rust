@@ -1,0 +1,7 @@
+# Ignore build/config files to ensure Rust is the primary language
+Makefile linguist-language=make
+Cargo.lock linguist-language=other
+# Ensure all .rs files are correctly identified
+*.rs linguist-language=Rust
+# Ignore potentially large config files that aren't source code
+.editorconfig linguist-language=other
