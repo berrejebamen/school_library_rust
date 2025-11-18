@@ -1,4 +1,3 @@
-Absolutely! Here's a **complete `README.md`** that includes everything: project purpose, folder structure, setup instructions, running instructions, example commands, features, and notes—all in **one file** ready to push to GitHub:
 
 ```markdown
 # School Library Management System (Rust + PostgreSQL)
@@ -21,25 +20,21 @@ The purpose of this project is to demonstrate:
 
 ## 📂 Folder Structure
 
-```
-
 school_library/
-├── Cargo.toml                 # Rust project manifest
+├── Cargo.toml # Rust project manifest
 ├── Cargo.lock
 ├── README.md
 ├── src/
-│   ├── main.rs                # Entry point of the application (menu + CLI)
-│   ├── library.rs             # Library struct with all database operations
-│   └── models/
-│       ├── mod.rs             # Models module
-│       ├── book.rs            # Book struct
-│       ├── student.rs         # Student struct
-│       ├── teacher.rs         # Teacher struct
-│       └── borrow_record.rs   # BorrowRecord struct
-└── example
-    |── example.rs # small example how to connect to a sql database using rust
-````
-
+│ ├── main.rs # Entry point of the application (menu + CLI)
+│ ├── library.rs # Library struct with all database operations
+│ └── models/
+│ ├── mod.rs # Models module
+│ ├── book.rs # Book struct
+│ ├── student.rs # Student struct
+│ ├── teacher.rs # Teacher struct
+│ └── borrow_record.rs # BorrowRecord struct
+└── example/
+    ├── example.rs # Small example showing how to connect to a SQL database using Rust
 ---
 
 ## ⚙️ Prerequisites
@@ -178,18 +173,3 @@ Book 1 returned successfully!
 * Ensure PostgreSQL server is running before starting the application.
 * Database credentials in `main.rs` must match your local setup.
 * The system automatically creates tables if they are missing (`users`, `books`, `borrow_records`).
-
----
-
-## 📄 License
-
-MIT License – feel free to use and modify this project.
-
-```
-
----
-
-If you want, I can also **write a `.gitignore` file** for Rust + PostgreSQL so you can push safely to GitHub without committing target files, `.env`, or database-related files.  
-
-Do you want me to do that next?
-```
