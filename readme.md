@@ -177,18 +177,3 @@ Book 1 returned successfully!
 * Ensure PostgreSQL server is running before starting the application.
 * Database credentials in `main.rs` must match your local setup.
 * The system automatically creates tables if they are missing (`users`, `books`, `borrow_records`).
-
----
-
-## 📄 License
-
-MIT License – feel free to use and modify this project.
-
-```
-
----
-
-If you want, I can also **write a `.gitignore` file** for Rust + PostgreSQL so you can push safely to GitHub without committing target files, `.env`, or database-related files.  
-
-Do you want me to do that next?
-```
