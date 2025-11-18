@@ -34,7 +34,7 @@ school_library/
 │ ├── teacher.rs # Teacher struct
 │ └── borrow_record.rs # BorrowRecord struct
 └── example/
-└── example.rs # Small example showing how to connect to a SQL database using Rust
+    ├── example.rs # Small example showing how to connect to a SQL database using Rust
 ---
 
 ## ⚙️ Prerequisites
